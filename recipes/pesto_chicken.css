@@ -1,0 +1,65 @@
+* {
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: lightcoral;
+}
+
+.ansorja1 {
+    margin: 30px;
+    border: 3px solid yellow;
+    background-color: #fff;
+    width: 850px;
+}
+
+.ansorja2 {
+    margin: 30px;
+    border: 3px solid red;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.ansorja3 {
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+}
+
+p {
+    padding: 0 0 0 40px ;
+    margin: 0;
+}
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    display:block
+}
+
+.name {
+    color: darkred;
+    margin: 0 0 30px 0;
+    text-align: left;
+}
+
+img.img1 {
+    height: auto;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(247, 144, 71);
+    margin: 30px;
+    padding: 10px 12px;
+    color: #fff;
+}

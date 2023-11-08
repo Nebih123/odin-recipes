@@ -1,0 +1,93 @@
+* {
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #c2a3d1;
+}
+
+
+.ansorja1 {
+    border: 2px solid yellow;
+    width: 850px;
+
+}
+
+.ansorja2 {
+    margin: 40px;
+    border: 2px solid red;
+    padding: 30px;
+    background-color: #FFFAFA;
+    box-shadow: 1px 1px 10px black;
+    height: 800px;
+}
+
+.columns{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.emri {
+    color: darkred;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.but {
+    padding: 0px;
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 12px;
+    
+}
+
+.but1 {
+    background-color: #fc9400;
+    color: #fff;
+}
+
+.but2 {
+    background-color: #fc9400;
+    color: #fff;
+
+}
+
+.but3 {
+    background-color: #fc9400;
+    color: #fff;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.columns {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    display: flex;
+}
+
+.card {
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: 0;
+}
+
+
